@@ -240,6 +240,30 @@ div.button  button[type='submit']:hover{
 		align-items: center;
 	}
 	div.search{
+		width: 40%;
+	}
+	input[type='text']{
+		margin-right: 0px;
+		margin-bottom: 7px;
+		width: 100%;
+	}
+	div.button{
+		display: flex;
+		justify-content: center;
+	}
+	div.button button[type='submit']{
+		width: 75%;
+	}
+}
+@media screen and (max-width: 700px){
+	header.under-menu{
+		flex-direction: column;
+	}
+	div.menu-items ol{
+		flex-direction: column;
+		align-items: center;
+	}
+	div.search{
 		width: 50%;
 	}
 	input[type='text']{
