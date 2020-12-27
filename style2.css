@@ -241,6 +241,8 @@ div.button  button[type='submit']:hover{
 	}
 	div.search{
 		width: 40%;
+		display: flex;
+		justify-content: center;
 	}
 	input[type='text']{
 		margin-right: 0px;
