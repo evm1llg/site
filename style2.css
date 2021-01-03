@@ -6,6 +6,12 @@ body{
 	margin: 0;
 	padding: 0;
 }
+input{
+	outline: none;
+}
+button{
+	cursor: pointer;
+}
 header.top-menu{
 	max-width: 1400px;
 	margin: 0 auto;
